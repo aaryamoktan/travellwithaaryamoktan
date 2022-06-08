@@ -1,0 +1,24 @@
+*
+{
+    padding:0;
+    margin:0;
+    box-sizing: border-box;
+}
+.Footer
+{
+    position: bottom;
+    width:100%;
+    height: auto;
+    background:rgb(75, 74, 74);
+    display:flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+.Footer .first
+{
+    display:inline-block;
+    color:white;
+}
+.Footer.first Link{
+    color:white;
+}

@@ -1,0 +1,19 @@
+*
+{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+.navbar-nav
+{
+    margin-left:200px;
+    font-size: 20px;  
+}
+.nav-item
+{
+    margin-left:10px;
+    color:red
+}
+.nev-link:hover {
+    color:red;
+}

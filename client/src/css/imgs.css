@@ -1,0 +1,46 @@
+*
+{
+    padding:0;
+    margin:0;
+    box-sizing: border-box;
+}
+.img
+{
+    width:100%;
+    height:60vh;
+    margin:auto;
+    box-shadow: 1px 1px 12px black;
+}
+.img .pic
+{
+    position: inherit;;
+    width: 100%;
+    height:100%;
+}
+.text
+{
+    width:100%;
+    height:auto;
+    margin-top:20px;
+   font-size: 20px;
+   font-family: 'Courier New', Courier, monospace;  
+}
+@media all and (max-width:500px)
+{
+    .text{
+        width:100%;
+        margin-left:10px;
+        font-size: 10px;
+        width:80%;
+
+    };
+}
+@media all and (max-width:900px)
+{
+    .text{
+        margin-left:50px;
+        font-size: 16px;
+        width:80%;
+
+    };
+}

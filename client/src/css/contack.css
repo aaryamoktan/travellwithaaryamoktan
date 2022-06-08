@@ -1,0 +1,60 @@
+*
+{
+    padding:0;
+    margin:0;
+    box-sizing: border-box;
+}
+h3{
+  color:rgb(88, 87, 87);
+  width:9.5%;
+  border-bottom: 3px solid rgb(111, 111, 111);
+  margin-left:47.5%;
+  margin-top:5%;
+}
+.contack{
+    position:relative;
+    width:100%;
+    height:70vh; 
+    margin-top:-40px;  
+}
+ .input
+{ 
+    width:15%;
+    height:auto;
+    box-shadow: 1px 1px 12px rgb(2, 2, 2);
+    margin-top: 100px;
+    margin-left: 45%;
+    border-radius: 10px;
+    background:rgb(246, 237, 237);
+}  .contack .input label
+{
+    margin-left:90px;
+}
+.contack .input input,
+.contack .input textarea{
+  margin-left:20px;
+
+}
+  .contack .input button{
+    margin-top: 5px;
+    margin-left: 80px;
+    margin-bottom: 5px;
+    border-radius: 10px;
+}
+@media all and (max-width:550px)
+{
+   .input
+  {
+    width:45%;
+    height:auto;
+    box-shadow: 1px 1px 10px rgb(61, 61, 61);
+    margin-top: 200px;
+    margin-left: 30%;
+    border-radius: 10px;
+    color:white;
+    background:black;
+    
+  
+  }
+}
+

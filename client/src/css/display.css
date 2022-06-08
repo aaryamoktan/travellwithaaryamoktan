@@ -1,0 +1,30 @@
+*
+{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+.display
+{
+    height:80vh;
+}
+.display .content 
+{
+    width:50%;
+    margin:auto;
+    margin-top:4%;
+}
+.display .content table{
+   
+    border-collapse: collapse;
+}
+.display .content tr{
+    border: 1px solid black;
+    border-left: none;
+    border-right:none;
+}
+.display .content th
+{
+    width:5%;
+    margin:auto
+}
